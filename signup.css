@@ -107,3 +107,14 @@ h1::after {
   background-color: powderblue;
   color: #eaa023;
 }
+@media (max-width: 713px) {
+  .contact-box {
+    grid-template-columns: none;
+  }
+  .left {
+    display: none;
+  }
+  .right {
+    padding: 15px 3px;
+  }
+}
